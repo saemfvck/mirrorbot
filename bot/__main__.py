@@ -46,7 +46,7 @@ def stats(update, context):
 
 def start(update, context):
     buttons = ButtonMaker()
-    buttons.buildbutton("Repo", "https://github.com/saemfvck/mirrorbot
+    buttons.buildbutton("Repo", "https://github.com/saemfvck/mirrorbot")
     buttons.buildbutton("Owner", "https://t.me/mirroringleech")
     reply_markup = buttons.build_menu(2)
     if CustomFilters.authorized_user(update) or CustomFilters.authorized_chat(update):
